@@ -54,7 +54,7 @@
             </div>
         </div>
 
-        <!-- Timeline Section -->
+                <!-- Timeline Section -->
         <div class="space-y-4">
             <!-- DOST - ASTI -->
             <div class="flex flex-col md:flex-row gap-4">
@@ -62,114 +62,87 @@
                 <div class="flex-grow border-l-2 border-gray-300 pl-4 pb-4">
                     <div class="flex items-center gap-4 mb-2">
                         <div class="w-12 h-12 flex-shrink-0">
-                            <img src="{{ asset('images/DOST-ASTI-Logo-RGB.png') }}" alt="Company Logo"
-                                class="w-full h-full object-contain">
+                            <img src="{{ asset('images/DOST-ASTI-Logo-RGB.png') }}" alt="Company Logo" class="w-full h-full object-contain">
                         </div>
                         <div>
-                            <p class="text-gray-600">I was an Artificial Intelligence Intern for Philippines' <a
-                                    href="https://asti.dost.gov.ph/"
-                                    class="text-blue-500 underline hover:underline">Department of Science and Technology
-                                    - Advanced Science and Technology Institute</a>, where I contributed to the Research
-                                and Development Division's <a href="https://youtu.be/nD-Ttj9jy5c?si=9KarBaHhgjyzvm3M"
-                                    class="text-blue-500 underline hover:underline">Project ROAMER (Robot for Optimized
-                                    and Autonomous Mission-Enhancement Response)</a>. This involved developing a smart
-                                robot capable of detecting banana plant diseases. This includes in-house data labeling,
-                                neural network training, the science of making it work, and deployment in production
-                                running on our AI supercomputer. Today, it aims to advance agricultural diagnostics,
-                                supporting farmers with early disease detection for healthier crops.</p>
+                            <p class="text-gray-600 text-xs md:text-sm lg:text-base">I was an Artificial Intelligence Intern for Philippines' <a href="https://asti.dost.gov.ph/" class="text-blue-500 underline hover:underline">Department of Science and Technology - Advanced Science and Technology Institute</a>, where I contributed to the Research and Development Division's <a href="https://youtu.be/nD-Ttj9jy5c?si=9KarBaHhgjyzvm3M" class="text-blue-500 underline hover:underline">Project ROAMER (Robot for Optimized and Autonomous Mission-Enhancement Response)</a>. This involved developing a smart robot capable of detecting banana plant diseases. This includes in-house data labeling, neural network training, the science of making it work, and deployment in production running on our AI supercomputer. Today, it aims to advance agricultural diagnostics, supporting farmers with early disease detection for healthier crops.</p>
                         </div>
                     </div>
                     <div class="flex flex-col md:flex-row gap-4 mt-4">
                         <!-- Left Image Container -->
                         <div class="w-full md:w-1/2">
-                            <img src="{{ asset('images/roamer.png') }}" alt="Left Image"
-                                class="w-full h-full object-cover">
+                            <img src="{{ asset('images/roamer.png') }}" alt="Left Image" class="w-full h-full object-cover">
                         </div>
                         <!-- Right Image Container (Collage) -->
                         <div class="w-full md:w-1/2 grid grid-cols-2 gap-2">
-                            <img src="{{ asset('images/banana-disease.png') }}" alt="Collage Image 1"
-                                class="w-full h-48 object-cover">
+                            <img src="{{ asset('images/banana-disease.png') }}" alt="Collage Image 1" class="w-full h-48 object-cover">
                             <img src="{{ asset('images/ppt.png') }}" alt="Collage Image 2" class="w-full object-cover">
-                            <img src="{{ asset('images/yolo.png') }}" alt="Collage Image 3"
-                                class="w-full object-cover col-span-2">
+                            <img src="{{ asset('images/yolo.png') }}" alt="Collage Image 3" class="w-full object-cover col-span-2">
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- Invisible Hanc Inc. -->
+        
+            <!-- Invisible Hand Inc. -->
             <div class="flex flex-col md:flex-row gap-4">
                 <div class="flex-shrink-0 w-24 text-left md:text-right text-gray-500"></div>
                 <div class="flex-grow border-l-2 border-gray-300 pl-4 pb-4">
                     <div class="flex items-center gap-4 mb-2">
                         <div class="w-12 h-12 flex-shrink-0">
-                            <img src="{{ asset('images/invisible.png') }}" alt="Company Logo"
-                                class="w-full h-full object-contain">
+                            <img src="{{ asset('images/invisible.png') }}" alt="Company Logo" class="w-full h-full object-contain">
                         </div>
                         <div>
-                            <p class="text-gray-600"> I was a Web Developer Intern at <a
-                                    href="https://www.facebook.com/invisiblehandinc"
-                                    class="text-blue-500 hover:underline">Invisible Hand Inc.</a>, where I developed and
-                                maintained a web application called <a href="https://talacargosolutions.com/one-crystal"
-                                    class="text-blue-500 hover:underline">One Crystal Logistics</a>. Today, it provides
-                                trucking and customs brokerages service that caters to the need of handful importers in
-                                cleaning air freight and sea freight shipments from the Bureau of Customs.</p>
+                            <p class="text-gray-600 text-xs md:text-sm lg:text-base">I was a Web Developer Intern at <a href="https://www.facebook.com/invisiblehandinc" class="text-blue-500 underline hover:underline">Invisible Hand Inc.</a>, where I developed and maintained a web application called <a href="https://talacargosolutions.com/one-crystal" class="text-blue-500 underline hover:underline">One Crystal Logistics</a>. Today, it provides trucking and customs brokerages service that caters to the need of handful importers in cleaning air freight and sea freight shipments from the Bureau of Customs.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!-- FEU Tech timeline -->
-        <div class="flex flex-col md:flex-row gap-4">
-            <div class="flex-shrink-0 w-24 text-left md:text-right text-gray-500">2019-2024</div>
-            <div class="flex-grow border-l-2 border-gray-300 pl-4 pb-4">
-                <div class="flex items-center gap-4 mb-2">
-                    <div class="w-12 h-12 flex-shrink-0">
-                        <img src="{{ asset('images/FEU_Tech_official_seal.png') }}" alt="Company Logo"
-                            class="w-full h-full object-contain">
-                    </div>
-                    <div>
-                        <p class="text-gray-600">BSc Computer Science at FEU Institute of Technology with a major in
-                            Software Engineering. I transferred here to continue my degree and this is where I
-                            specialized on AI/machine learning and web applications.</p>
+        
+            <!-- FEU Tech timeline -->
+            <div class="flex flex-col md:flex-row gap-4">
+                <div class="flex-shrink-0 w-24 text-left md:text-right text-gray-500">2019-2024</div>
+                <div class="flex-grow border-l-2 border-gray-300 pl-4 pb-4">
+                    <div class="flex items-center gap-4 mb-2">
+                        <div class="w-12 h-12 flex-shrink-0">
+                            <img src="{{ asset('images/FEU_Tech_official_seal.png') }}" alt="Company Logo" class="w-full h-full object-contain">
+                        </div>
+                        <div>
+                            <p class="text-gray-600 text-xs md:text-sm lg:text-base">BSc Computer Science at FEU Institute of Technology with a major in Software Engineering. I transferred here to continue my degree and this is where I specialized on AI/machine learning and web applications.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!-- Wesleyan University-Philippines timeline -->
-        <div class="flex flex-col md:flex-row gap-4">
-            <div class="flex-shrink-0 w-24 text-left md:text-right text-gray-500">2018-2019</div>
-            <div class="flex-grow border-l-2 border-gray-300 pl-4 pb-4">
-                <div class="flex items-center gap-4 mb-2">
-                    <div class="w-12 h-12 flex-shrink-0">
-                        <img src="{{ asset('images/wup.png') }}" alt="Company Logo"
-                            class="w-full h-full object-contain">
-                    </div>
-                    <div>
-                        <p class="text-gray-600">BSc Computer Science at Wesleyan University-Philippines. I spent one
-                            year studying here, this is where I first got into software development such as web
-                            applications and algorithms.</p>
+        
+            <!-- Wesleyan University-Philippines timeline -->
+            <div class="flex flex-col md:flex-row gap-4">
+                <div class="flex-shrink-0 w-24 text-left md:text-right text-gray-500">2018-2019</div>
+                <div class="flex-grow border-l-2 border-gray-300 pl-4 pb-4">
+                    <div class="flex items-center gap-4 mb-2">
+                        <div class="w-12 h-12 flex-shrink-0">
+                            <img src="{{ asset('images/wup.png') }}" alt="Company Logo" class="w-full h-full object-contain">
+                        </div>
+                        <div>
+                            <p class="text-gray-600 text-xs md:text-sm lg:text-base">BSc Computer Science at Wesleyan University-Philippines. I spent one year studying here, this is where I first got into software development such as web applications and algorithms.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- Useful Projects Section -->
-        <div class="bg-gray-200 rounded-lg shadow-lg p-8 mt-8">
-            <h2 class="text-2xl font-bold text-gray-900 mb-4">useful projects</h2>
+        <div class="bg-gray-200 rounded-lg shadow-lg p-4 md:p-8 mt-8">
+            <h2 class="text-xl md:text-2xl font-bold text-gray-900 mb-4">useful projects</h2>
             <div class="space-y-4">
                 <!-- Project Item -->
                 <div class="flex flex-col md:flex-row gap-4">
-                    <div class="flex-grow pl-4 pb-4">
+                    <div class="flex-grow p-2 md:pl-4 md:pb-4">
                         <div class="flex items-start gap-4 mb-2">
                             <div class="w-12 h-12 flex-shrink-0">
                                 <img src="{{ asset('images/video-lens.png') }}" alt="Company Logo"
                                     class="w-full h-full object-contain">
                             </div>
                             <div>
-                                <p class="text-gray-600 text-sm md:text-base">I developed <a
+                                <p class="text-gray-600 text-xs md:text-sm lg:text-base">I developed <a
                                         href="https://github.com/starkproj"
                                         class="text-blue-500 underline hover:underline">Video Lens</a>, an AI web
                                     application because I was tired of endlessly scrubbing through videos for the right
@@ -185,13 +158,13 @@
 
                 <!-- Pasig -->
                 <div class="flex flex-col md:flex-row gap-4">
-                    <div class="flex-grow pl-4 pb-4">
+                    <div class="flex-grow p-2 md:pl-4 md:pb-4">
                         <div class="flex items-start gap-4 mb-2">
                             <div class="w-12 h-12 flex-shrink-0 text-3xl">
                                 🏠
                             </div>
                             <div>
-                                <p class="text-gray-600 text-sm md:text-base">I created <a
+                                <p class="text-gray-600 text-xs md:text-sm lg:text-base">I created <a
                                         href="https://github.com/ralphcajipe/pasig-house-prices-prediction"
                                         class="text-blue-500 underline hover:underline">Pasig House Prices
                                         Prediction</a> because window-shopping for houses in Pasig City made me wonder
@@ -207,13 +180,13 @@
 
                 <!-- Earthquake -->
                 <div class="flex flex-col md:flex-row gap-4">
-                    <div class="flex-grow pl-4 pb-4">
+                    <div class="flex-grow p-2 md:pl-4 md:pb-4">
                         <div class="flex items-start gap-4 mb-2">
                             <div class="w-12 h-12 flex-shrink-0 text-3xl">
                                 🌍
                             </div>
                             <div>
-                                <p class="text-gray-600 text-sm md:text-base">Okay, here's <a
+                                <p class="text-gray-600 text-xs md:text-sm lg:text-base">Okay, here's <a
                                         href="https://github.com/ralphcajipe/earthquake-world-map"
                                         class="text-blue-500 underline hover:underline">Global Earthquake Data
                                         Visualization</a> because I wanted to see if the planet’s tantrums could fit on
@@ -229,14 +202,14 @@
 
                 <!-- Image Colorizer -->
                 <div class="flex flex-col md:flex-row gap-4">
-                    <div class="flex-grow pl-4 pb-4">
+                    <div class="flex-grow p-2 md:pl-4 md:pb-4">
                         <div class="flex items-start gap-4 mb-2">
                             <div class="w-12 h-12 flex-shrink-0 text-3xl">
                                 <img src="{{ asset('images/colorizer.png') }}" alt="Company Logo"
                                     class="w-full h-full object-contain">
                             </div>
                             <div>
-                                <p class="text-gray-600 text-sm md:text-base"><a
+                                <p class="text-gray-600 text-xs md:text-sm lg:text-base"><a
                                         href="https://github.com/ralphcajipe/image-colorizer#readme"
                                         class="text-blue-500 underline hover:underline">Image Colorizer</a> takes
                                     black-and-white photos and asks, “What if history wasn’t so... gray?” Using
@@ -250,13 +223,13 @@
 
                 <!-- International Space Station Tracker -->
                 <div class="flex flex-col md:flex-row gap-4">
-                    <div class="flex-grow pl-4 pb-4">
+                    <div class="flex-grow p-2 md:pl-4 md:pb-4">
                         <div class="flex items-start gap-4 mb-2">
                             <div class="w-12 h-12 flex-shrink-0 text-3xl">
                                 🛰️
                             </div>
                             <div>
-                                <p class="text-gray-600 text-sm md:text-base"><a
+                                <p class="text-gray-600 text-xs md:text-sm lg:text-base"><a
                                         href="https://github.com/ralphcajipe/International-Space-Station-Tracker"
                                         class="text-blue-500 underline hover:underline">International Space Station
                                         Tracker</a> lets you keep tabs on the ISS as it orbits Earth—because why not
@@ -270,16 +243,17 @@
 
                 <!-- ECHO -->
                 <div class="flex flex-col md:flex-row gap-4">
-                    <div class="flex-grow pl-4 pb-4">
+                    <div class="flex-grow p-2 md:pl-4 md:pb-4">
                         <div class="flex items-start gap-4 mb-2">
                             <div class="w-12 h-12 flex-shrink-0 text-3xl">
                                 <img src="{{ asset('images/echo-logo.png') }}" alt="Company Logo"
                                     class="w-full h-full object-contain">
                             </div>
                             <div>
-                                <p class="text-gray-600 text-sm md:text-base">In the age of AI, every good developer
-                                    should know how to build their own chatbot—because who doesn’t want to have a
-                                    conversation with a machine? <a href="https://github.com/ralphcajipe/echo-ai"
+                                <p class="text-gray-600 text-xs md:text-sm lg:text-base">In the age of AI, every good
+                                    developer should know how to build their own chatbot—because who doesn’t want to
+                                    have a conversation with a machine? <a
+                                        href="https://github.com/ralphcajipe/echo-ai"
                                         class="text-blue-500 underline hover:underline">ECHO</a> is an AI chatbot built
                                     to offer helpful, creative, and surprisingly friendly responses. It’s a simple web
                                     app that uses the OpenAI API to generate human-like replies, so you can have a chat
