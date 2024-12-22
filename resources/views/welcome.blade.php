@@ -89,7 +89,8 @@
                         <div class="w-full md:w-1/2 grid grid-cols-2 gap-2">
                             <img src="{{ asset('images/banana-disease.png') }}" alt="Collage Image 1"
                                 class="w-full h-48 object-cover">
-                            <img src="{{ asset('images/ppt.png') }}" alt="Collage Image 2" class="w-full object-cover">
+                            <img src="{{ asset('images/ppt.png') }}" alt="Collage Image 2"
+                                class="w-full h-48 object-cover">
                             <img src="{{ asset('images/yolo.png') }}" alt="Collage Image 3"
                                 class="w-full object-cover col-span-2">
                         </div>
