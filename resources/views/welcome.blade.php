@@ -169,7 +169,8 @@
                                     class="w-full h-full object-contain">
                             </div>
                             <div>
-                                <p class="text-gray-600">I developed <a href="https://github.com/starkproj"
+                                <p class="text-gray-600 text-sm md:text-base">I developed <a
+                                        href="https://github.com/starkproj"
                                         class="text-blue-500 underline hover:underline">Video Lens</a>, an AI web
                                     application because I was tired of endlessly scrubbing through videos for the right
                                     information. It leverages Natural Language Processing (NLP) and Computer Vision with
@@ -190,7 +191,7 @@
                                 🏠
                             </div>
                             <div>
-                                <p class="text-gray-600">I created <a
+                                <p class="text-gray-600 text-sm md:text-base">I created <a
                                         href="https://github.com/ralphcajipe/pasig-house-prices-prediction"
                                         class="text-blue-500 underline hover:underline">Pasig House Prices
                                         Prediction</a> because window-shopping for houses in Pasig City made me wonder
@@ -204,91 +205,89 @@
                     </div>
                 </div>
 
-                <! -- Earthquake -->
-                    <div class="flex flex-col md:flex-row gap-4">
-                        <div class="flex-grow pl-4 pb-4">
-                            <div class="flex items-start gap-4 mb-2">
-                                <div class="w-12 h-12 flex-shrink-0 text-3xl">
-                                    🌍
-                                </div>
-                                <div>
-                                    <p class="text-gray-600">Okay, here's <a
-                                            href="https://github.com/ralphcajipe/earthquake-world-map"
-                                            class="text-blue-500 underline hover:underline">Global Earthquake Data
-                                            Visualization</a> because I wanted to see if the planet’s tantrums could fit
-                                        on a single map. Using Python and Plotly, it fetches data from the United States
-                                        Geological Survey, processes earthquake details like magnitude and location from
-                                        a JSON file, and generates an interactive world map. Earthquakes are neatly
-                                        categorized by their Richter scale magnitudes—because even chaos deserves a bit
-                                        of order.</p>
-                                </div>
+                <!-- Earthquake -->
+                <div class="flex flex-col md:flex-row gap-4">
+                    <div class="flex-grow pl-4 pb-4">
+                        <div class="flex items-start gap-4 mb-2">
+                            <div class="w-12 h-12 flex-shrink-0 text-3xl">
+                                🌍
+                            </div>
+                            <div>
+                                <p class="text-gray-600 text-sm md:text-base">Okay, here's <a
+                                        href="https://github.com/ralphcajipe/earthquake-world-map"
+                                        class="text-blue-500 underline hover:underline">Global Earthquake Data
+                                        Visualization</a> because I wanted to see if the planet’s tantrums could fit on
+                                    a single map. Using Python and Plotly, it fetches data from the United States
+                                    Geological Survey, processes earthquake details like magnitude and location from a
+                                    JSON file, and generates an interactive world map. Earthquakes are neatly
+                                    categorized by their Richter scale magnitudes—because even chaos deserves a bit of
+                                    order.</p>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <! -- Image Colorizer -->
-                        <div class="flex flex-col md:flex-row gap-4">
-                            <div class="flex-grow pl-4 pb-4">
-                                <div class="flex items-start gap-4 mb-2">
-                                    <div class="w-12 h-12 flex-shrink-0 text-3xl">
-                                        <img src="{{ asset('images/colorizer.png') }}" alt="Company Logo"
-                                            class="w-full h-full object-contain">
-                                    </div>
-                                    <div>
-                                        <p class="text-gray-600"><a
-                                                href="https://github.com/ralphcajipe/image-colorizer#readme"
-                                                class="text-blue-500 underline hover:underline">Image Colorizer</a>
-                                            takes black-and-white photos and asks, “What if history wasn’t so... gray?”
-                                            Using DeOldify’s deep learning model, this desktop app lets you pick an
-                                            image, slap some color on it, and save the results—because even your
-                                            great-grandparents deserve to pop on Instagram.</p>
-                                    </div>
-                                </div>
+                <!-- Image Colorizer -->
+                <div class="flex flex-col md:flex-row gap-4">
+                    <div class="flex-grow pl-4 pb-4">
+                        <div class="flex items-start gap-4 mb-2">
+                            <div class="w-12 h-12 flex-shrink-0 text-3xl">
+                                <img src="{{ asset('images/colorizer.png') }}" alt="Company Logo"
+                                    class="w-full h-full object-contain">
+                            </div>
+                            <div>
+                                <p class="text-gray-600 text-sm md:text-base"><a
+                                        href="https://github.com/ralphcajipe/image-colorizer#readme"
+                                        class="text-blue-500 underline hover:underline">Image Colorizer</a> takes
+                                    black-and-white photos and asks, “What if history wasn’t so... gray?” Using
+                                    DeOldify’s deep learning model, this desktop app lets you pick an image, slap some
+                                    color on it, and save the results—because even your great-grandparents deserve to
+                                    pop on Instagram.</p>
                             </div>
                         </div>
+                    </div>
+                </div>
 
-                        <! -- International Space Station Tracker -->
-                            <div class="flex flex-col md:flex-row gap-4">
-                                <div class="flex-grow pl-4 pb-4">
-                                    <div class="flex items-start gap-4 mb-2">
-                                        <div class="w-12 h-12 flex-shrink-0 text-3xl">
-                                            🛰️
-                                        </div>
-                                        <div>
-                                            <p class="text-gray-600"><a
-                                                    href="https://github.com/ralphcajipe/International-Space-Station-Tracker"
-                                                    class="text-blue-500 underline hover:underline">International Space
-                                                    Station Tracker</a> lets you keep tabs on the ISS as it orbits
-                                                Earth—because why not know when the space station is overhead? Using the
-                                                Open Notify API, it tracks the ISS in real-time, so you can impress your
-                                                friends with your space knowledge—no rocket required. HAHA!</p>
-                                        </div>
-                                    </div>
-                                </div>
+                <!-- International Space Station Tracker -->
+                <div class="flex flex-col md:flex-row gap-4">
+                    <div class="flex-grow pl-4 pb-4">
+                        <div class="flex items-start gap-4 mb-2">
+                            <div class="w-12 h-12 flex-shrink-0 text-3xl">
+                                🛰️
                             </div>
+                            <div>
+                                <p class="text-gray-600 text-sm md:text-base"><a
+                                        href="https://github.com/ralphcajipe/International-Space-Station-Tracker"
+                                        class="text-blue-500 underline hover:underline">International Space Station
+                                        Tracker</a> lets you keep tabs on the ISS as it orbits Earth—because why not
+                                    know when the space station is overhead? Using the Open Notify API, it tracks the
+                                    ISS in real-time, so you can impress your friends with your space knowledge—no
+                                    rocket required. HAHA!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                            <! -- ECHO -->
-                                <div class="flex flex-col md:flex-row gap-4">
-                                    <div class="flex-grow pl-4 pb-4">
-                                        <div class="flex items-start gap-4 mb-2">
-                                            <div class="w-12 h-12 flex-shrink-0 text-3xl">
-                                                <img src="{{ asset('images/echo-logo.png') }}" alt="Company Logo"
-                                                    class="w-full h-full object-contain">
-                                            </div>
-                                            <div>
-                                                <p class="text-gray-600">In the age of AI, every good developer should
-                                                    know how to build their own chatbot—because who doesn’t want to have
-                                                    a conversation with a machine? <a
-                                                        href="https://github.com/ralphcajipe/echo-ai"
-                                                        class="text-blue-500 underline hover:underline">ECHO</a> is an
-                                                    AI chatbot built to offer helpful, creative, and surprisingly
-                                                    friendly responses. It’s a simple web app that uses the OpenAI API
-                                                    to generate human-like replies, so you can have a chat with a bot
-                                                    that’s almost too polite.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                <!-- ECHO -->
+                <div class="flex flex-col md:flex-row gap-4">
+                    <div class="flex-grow pl-4 pb-4">
+                        <div class="flex items-start gap-4 mb-2">
+                            <div class="w-12 h-12 flex-shrink-0 text-3xl">
+                                <img src="{{ asset('images/echo-logo.png') }}" alt="Company Logo"
+                                    class="w-full h-full object-contain">
+                            </div>
+                            <div>
+                                <p class="text-gray-600 text-sm md:text-base">In the age of AI, every good developer
+                                    should know how to build their own chatbot—because who doesn’t want to have a
+                                    conversation with a machine? <a href="https://github.com/ralphcajipe/echo-ai"
+                                        class="text-blue-500 underline hover:underline">ECHO</a> is an AI chatbot built
+                                    to offer helpful, creative, and surprisingly friendly responses. It’s a simple web
+                                    app that uses the OpenAI API to generate human-like replies, so you can have a chat
+                                    with a bot that’s almost too polite.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
