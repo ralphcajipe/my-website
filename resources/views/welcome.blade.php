@@ -82,17 +82,17 @@
                     <div class="flex flex-col md:flex-row gap-4 mt-4">
                         <!-- Left Image Container -->
                         <div class="w-full md:w-1/2">
-                            <img src="{{ asset('images/roamer.png') }}" alt="Left Image"
-                                class="w-full h-full object-cover">
+                            <img src="{{ asset('images/roamer-ralph.jpg') }}" alt="Left Image"
+                                class="w-full h-full object-cover aspect-w-1 aspect-h-1">
                         </div>
                         <!-- Right Image Container (Collage) -->
                         <div class="w-full md:w-1/2 grid grid-cols-2 gap-2">
                             <img src="{{ asset('images/banana-disease.png') }}" alt="Collage Image 1"
-                                class="w-full h-48 object-cover">
+                                class="w-full h-full object-cover">
                             <img src="{{ asset('images/ppt.png') }}" alt="Collage Image 2"
-                                class="w-full h-48 object-cover">
+                                class="w-full h-full object-cover">
                             <img src="{{ asset('images/yolo.png') }}" alt="Collage Image 3"
-                                class="w-full object-cover col-span-2">
+                                class="w-full h-full object-cover col-span-2">
                         </div>
                     </div>
                 </div>
