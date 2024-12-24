@@ -24,7 +24,7 @@
 
             <div class="text-center md:text-left">
                 <h1 class="text-4xl font-bold text-gray-900 mb-2">Ralph Cajipe</h1>
-                <p class="text-xl text-gray-600 italic mb-4">I develop AI and web software and deploy them to production
+                <p class="text-xl text-gray-600 italic mb-4">I develop AI, Machine Learning, and Web software, deploying them to production.
                 </p>
 
                 <!-- Social Links -->
@@ -80,9 +80,9 @@
                     </div>
                 </div>
             </div>
-            <!-- DOST - ASTI -->
+                        <!-- DOST - ASTI -->
             <div class="flex flex-col md:flex-row gap-4">
-                <div class="flex-shrink-0 w-24 text-left md:text-right text-gray-500">2023-2024</div>
+                <div class="flex-shrink-0 w-24 text-left md:text-right text-gray-500">2024</div>
                 <div class="flex-grow border-l-2 border-gray-300 pl-4 pb-4">
                     <div class="flex items-center gap-4 mb-2">
                         <div class="w-12 h-12 flex-shrink-0">
@@ -121,10 +121,10 @@
                     </div>
                 </div>
             </div>
-
+            
             <!-- Invisible Hand Inc. -->
             <div class="flex flex-col md:flex-row gap-4">
-                <div class="flex-shrink-0 w-24 text-left md:text-right text-gray-500"></div>
+                <div class="flex-shrink-0 w-24 text-left md:text-right text-gray-500">2023-2024</div>
                 <div class="flex-grow border-l-2 border-gray-300 pl-4 pb-4">
                     <div class="flex items-center gap-4 mb-2">
                         <div class="w-12 h-12 flex-shrink-0">
