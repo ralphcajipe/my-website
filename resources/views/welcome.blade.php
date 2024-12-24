@@ -56,6 +56,30 @@
 
         <!-- Timeline Section -->
         <div class="space-y-4">
+            <!-- 2025 - Present -->
+            <div class="flex flex-col md:flex-row gap-4">
+                <div class="flex-shrink-0 w-24 text-left md:text-right text-gray-500">2025-Present</div>
+                <div class="flex-grow border-l-2 border-gray-300 pl-4 pb-4">
+                    <div class="flex items-center gap-4 mb-2">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 flex-shrink-0 flex items-center justify-center">
+                                <svg class="w-8 h-8 text-gray-400 animate-spin" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 24 24">
+                                    <circle class="opacity-25" cx="12" cy="12" r="10"
+                                        stroke="currentColor" stroke-width="4"></circle>
+                                    <path class="opacity-75" fill="currentColor"
+                                        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-gray-600 text-xs md:text-sm lg:text-base">Future Software Developer/Engineer
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- DOST - ASTI -->
             <div class="flex flex-col md:flex-row gap-4">
                 <div class="flex-shrink-0 w-24 text-left md:text-right text-gray-500">2023-2024</div>
