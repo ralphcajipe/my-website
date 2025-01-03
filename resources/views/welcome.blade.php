@@ -24,27 +24,29 @@
 
             <div class="text-center md:text-left">
                 <h1 class="text-4xl font-bold text-gray-900 mb-2">Ralph Cajipe</h1>
-                <p class="text-xl text-gray-600 italic mb-4">I develop AI, Machine Learning, and Web software, deploying them to production.
+                <p class="text-xl text-gray-600 italic mb-4">I develop AI, Machine Learning, and Web software, deploying
+                    them to production.
                 </p>
 
                 <!-- Social Links -->
                 <div class="flex gap-4 justify-center md:justify-start">
                     <!-- LinkedIn -->
-                    <a href="https://www.linkedin.com/in/ralphcajipe/" class="text-gray-600 hover:text-gray-900">
+                    <a href="https://www.linkedin.com/in/ralphcajipe/" target="_blank"
+                        class="text-gray-600 hover:text-gray-900">
                         <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
                             <path
                                 d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.25c-.97 0-1.75-.78-1.75-1.75s.78-1.75 1.75-1.75 1.75.78 1.75 1.75-.78 1.75-1.75 1.75zm13.5 11.25h-3v-5.5c0-1.1-.9-2-2-2s-2 .9-2 2v5.5h-3v-10h3v1.5c.9-1.35 2.5-2.25 4.5-2.25 2.76 0 5 2.24 5 5v5.75z" />
                         </svg>
                     </a>
                     <!-- GitHub -->
-                    <a href="https://github.com/ralphcajipe" class="text-gray-600 hover:text-gray-900">
+                    <a href="https://github.com/ralphcajipe" target="_blank" class="text-gray-600 hover:text-gray-900">
                         <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
                             <path
                                 d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
                         </svg>
                     </a>
                     <!-- Email -->
-                    <a href="mailto:ralphcajipe@gmail.com" class="text-gray-600 hover:text-gray-900">
+                    <a href="mailto:ralphcajipe@gmail.com" target="_blank" class="text-gray-600 hover:text-gray-900">
                         <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
                             <path
                                 d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z" />
@@ -80,7 +82,7 @@
                     </div>
                 </div>
             </div>
-                        <!-- DOST - ASTI -->
+            <!-- DOST - ASTI -->
             <div class="flex flex-col md:flex-row gap-4">
                 <div class="flex-shrink-0 w-24 text-left md:text-right text-gray-500">2024</div>
                 <div class="flex-grow border-l-2 border-gray-300 pl-4 pb-4">
@@ -91,11 +93,12 @@
                         </div>
                         <div>
                             <p class="text-gray-600 text-xs md:text-sm lg:text-base">I was an Artificial Intelligence
-                                Intern for Philippines' <a href="https://asti.dost.gov.ph/"
+                                Intern for Philippines' <a href="https://asti.dost.gov.ph/" target="_blank"
                                     class="text-blue-500 underline hover:underline">Department of Science and Technology
                                     - Advanced Science and Technology Institute</a>, where I contributed to the Research
                                 and Development Division's <a href="https://youtu.be/nD-Ttj9jy5c?si=9KarBaHhgjyzvm3M"
-                                    class="text-blue-500 underline hover:underline">Project ROAMER (Robot for Optimized
+                                    target="_blank" class="text-blue-500 underline hover:underline">Project ROAMER
+                                    (Robot for Optimized
                                     and Autonomous Mission-Enhancement Response)</a>. This involved developing a smart
                                 robot capable of detecting banana plant diseases. This includes in-house data labeling,
                                 neural network training, the science of making it work, and deployment in production
@@ -121,7 +124,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <!-- Invisible Hand Inc. -->
             <div class="flex flex-col md:flex-row gap-4">
                 <div class="flex-shrink-0 w-24 text-left md:text-right text-gray-500">2023-2024</div>
@@ -133,11 +136,12 @@
                         </div>
                         <div>
                             <p class="text-gray-600 text-xs md:text-sm lg:text-base">I was a Web Developer Intern at <a
-                                    href="https://www.facebook.com/invisiblehandinc"
+                                    href="https://www.facebook.com/invisiblehandinc" target="_blank"
                                     class="text-blue-500 underline hover:underline">Invisible Hand Inc.</a>, where I
                                 developed and maintained a web application called <a
-                                    href="https://talacargosolutions.com/one-crystal"
-                                    class="text-blue-500 underline hover:underline">One Crystal Logistics</a>. Today, it
+                                    href="https://talacargosolutions.com/one-crystal" target="_blank"
+                                    class="text-blue-500 underline hover:underline">One Crystal Logistics</a>. Today,
+                                it
                                 provides trucking and customs brokerages service that caters to the need of handful
                                 importers in cleaning air freight and sea freight shipments from the Bureau of Customs.
                             </p>
@@ -198,7 +202,7 @@
                             </div>
                             <div>
                                 <p class="text-gray-600 text-xs md:text-sm lg:text-base">I developed <a
-                                        href="https://github.com/starkproj"
+                                        href="https://github.com/starkproj" target="_blank"
                                         class="text-blue-500 underline hover:underline">Video Lens</a>, an AI web
                                     application because I was tired of endlessly scrubbing through videos for the right
                                     information. It leverages Natural Language Processing (NLP) and Computer Vision with
@@ -221,7 +225,8 @@
                             <div>
                                 <p class="text-gray-600 text-xs md:text-sm lg:text-base">I created <a
                                         href="https://github.com/ralphcajipe/pasig-house-prices-prediction"
-                                        class="text-blue-500 underline hover:underline">Pasig House Prices
+                                        target="_blank" class="text-blue-500 underline hover:underline">Pasig House
+                                        Prices
                                         Prediction</a> because window-shopping for houses in Pasig City made me wonder
                                     if I could predict the prices better than the ads. Using real estate data from
                                     Kaggle, I trained models with TensorFlow Decision Forests and Simple ML for Sheets,
@@ -242,7 +247,7 @@
                             </div>
                             <div>
                                 <p class="text-gray-600 text-xs md:text-sm lg:text-base">Okay, here's <a
-                                        href="https://github.com/ralphcajipe/earthquake-world-map"
+                                        href="https://github.com/ralphcajipe/earthquake-world-map" target="_blank"
                                         class="text-blue-500 underline hover:underline">Global Earthquake Data
                                         Visualization</a> because I wanted to see if the planet’s tantrums could fit on
                                     a single map. Using Python and Plotly, it fetches data from the United States
@@ -265,7 +270,7 @@
                             </div>
                             <div>
                                 <p class="text-gray-600 text-xs md:text-sm lg:text-base"><a
-                                        href="https://github.com/ralphcajipe/image-colorizer#readme"
+                                        href="https://github.com/ralphcajipe/image-colorizer#readme" target="_blank"
                                         class="text-blue-500 underline hover:underline">Image Colorizer</a> takes
                                     black-and-white photos and asks, “What if history wasn’t so... gray?” Using
                                     DeOldify’s deep learning model, this desktop app lets you pick an image, slap some
@@ -286,7 +291,8 @@
                             <div>
                                 <p class="text-gray-600 text-xs md:text-sm lg:text-base"><a
                                         href="https://github.com/ralphcajipe/International-Space-Station-Tracker"
-                                        class="text-blue-500 underline hover:underline">International Space Station
+                                        target="_blank" class="text-blue-500 underline hover:underline">International
+                                        Space Station
                                         Tracker</a> lets you keep tabs on the ISS as it orbits Earth—because why not
                                     know when the space station is overhead? Using the Open Notify API, it tracks the
                                     ISS in real-time, so you can impress your friends with your space knowledge—no
@@ -308,7 +314,7 @@
                                 <p class="text-gray-600 text-xs md:text-sm lg:text-base">In the age of AI, every good
                                     developer should know how to build their own chatbot—because who doesn’t want to
                                     have a conversation with a machine? <a
-                                        href="https://github.com/ralphcajipe/echo-ai"
+                                        href="https://github.com/ralphcajipe/echo-ai" target="_blank"
                                         class="text-blue-500 underline hover:underline">ECHO</a> is an AI chatbot built
                                     to offer helpful, creative, and surprisingly friendly responses. It’s a simple web
                                     app that uses the OpenAI API to generate human-like replies, so you can have a chat
@@ -327,13 +333,14 @@
             <div class="space-y-2">
                 <div>
                     <p class="text-gray-600 text-sm md:text-base">Feb 2022 - <a
-                            href="https://medium.com/@computeralph/the-age-of-a-i-a6766679d453"
+                            href="https://medium.com/@computeralph/the-age-of-a-i-a6766679d453" target="_blank"
                             class="text-blue-500 underline hover:underline">The Age of A.I.</a></p>
                 </div>
                 <div>
                     <p class="text-gray-600 text-sm md:text-base">Feb 2022 - <a
                             href="https://medium.com/@computeralph/path-to-a-free-self-taught-education-in-computer-science-9ee6a0b79fb1"
-                            class="text-blue-500 underline hover:underline">Path to a free self-taught education in
+                            target="_blank" class="text-blue-500 underline hover:underline">Path to a free self-taught
+                            education in
                             Computer Science</a></p>
                 </div>
                 <!-- Add more writing items as needed -->
@@ -350,7 +357,8 @@
                         <div class="mb-2">
                             <p class="text-lg font-semibold text-sm md:text-base">
                                 <a href="https://www.researchgate.net/publication/379037487_Video_Content_Analysis_through_Computer_Vision_and_Natural_Language_Processing"
-                                    class="text-blue-500 underline hover:underline">Video Content Analysis through
+                                    target="_blank" class="text-blue-500 underline hover:underline">Video Content
+                                    Analysis through
                                     Computer Vision and Natural Language Processing</a>
                                 <span class="text-green-500">2023</span>
                             </p>
