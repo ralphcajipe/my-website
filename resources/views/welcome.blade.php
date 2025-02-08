@@ -76,7 +76,7 @@
                             </div>
                         </div>
                         <div>
-                            <p class="text-gray-600 text-xs md:text-sm lg:text-base">Future Software Developer/Engineer
+                            <p class="text-gray-600 text-xs md:text-sm lg:text-base">Software Engineer
                             </p>
                         </div>
                     </div>
